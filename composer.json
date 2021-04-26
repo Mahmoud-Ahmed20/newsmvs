@@ -1,0 +1,20 @@
+{
+        "name": "mahmoudahmed/news-test",
+        "description": "A short description of what your package does",
+        "require": {
+            "php": ">=7.4",
+            "another-vendor/package": "1.*"
+        },
+        "autoload":
+     {
+        "psr-4":
+         {
+            "news\\":"app"
+        }
+    },
+        "require": 
+        {
+                "dcblogdev/pdo-wrapper": "^2.0",
+                "wixel/gump": "^1.12"
+        }
+}
